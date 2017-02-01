@@ -7,6 +7,6 @@ window.onload = function () {
         window.open('http://github.com/dcalsky');
     });
     right.addEventListener('click', function () {
-        window.open('http://blog.noddl.me');
+        window.open('./blog');
     });
 };
