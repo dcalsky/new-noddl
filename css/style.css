@@ -137,13 +137,16 @@ p {
 #bottom-part:hover ~ #top-part {
     background: rgba(250, 250, 250, 1);
 }*/
-
 #bottom-part:hover p {
     color: rgba(250, 250, 250, 1);
+}
+#fold-heart {
+    color: #C62828;
 }
 #bottom-part:hover {
     background: rgba(33, 33, 33, 0.85);
 }
+
 
 @media (max-width: 960px) {
     p {
@@ -151,6 +154,9 @@ p {
     }
     .content-fold {
         display: inline;
+    }
+    .content-fold-hidden {
+        display: none;
     }
     #left-part {
         animation: top 1s ease .2s;
